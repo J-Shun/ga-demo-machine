@@ -5,6 +5,8 @@ const box4 = document.querySelector('.box4');
 
 const toggle = document.querySelector('.toggle');
 
+localStorage.setItem('ga101', 'zero-to-hero');
+
 let isToggle = false;
 
 toggle.addEventListener('click', () => {
